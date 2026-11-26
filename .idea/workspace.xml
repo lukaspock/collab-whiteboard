@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae4af3ce-1925-46a0-b498-971119b128eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/whiteboard/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/.oxlintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/src/welcome/WelcomeScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/vite.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="4" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="2.6045673376949436E-208" />
+      <entry key="MS500" value="3.041915305229163E-42" />
+      <entry key="S2" value="4.176253102902491E-11" />
+      <entry key="S5" value="7.06445086917186E-5" />
+      <entry key="S10" value="0.008932522299737131" />
+      <entry key="S30" value="0.45844157340951214" />
+      <entry key="S60" value="2.3555129456234605" />
+      <entry key="M2" value="7.451939923745387" />
+      <entry key="M5" value="18.910478596037844" />
+      <entry key="M10" value="28.66682779959111" />
+      <entry key="M15" value="33.611565417864924" />
+      <entry key="M30" value="39.89750722918275" />
+      <entry key="H1" value="43.685377338485786" />
+      <entry key="H2" value="45.771611906075464" />
+      <entry key="H4" value="46.867333413007344" />
+      <entry key="D1" value="47.80859445766662" />
+      <entry key="W1" value="47.972591169906686" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.0" />
+      <entry key="M5" value="1.0" />
+      <entry key="M10" value="1.0" />
+      <entry key="M15" value="1.0" />
+      <entry key="M30" value="1.0" />
+      <entry key="H1" value="1.0" />
+      <entry key="H2" value="1.0" />
+      <entry key="H4" value="1.0" />
+      <entry key="D1" value="1.0" />
+      <entry key="W1" value="1.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.003217152411201457" />
+      <entry key="MS500" value="0.3173177215049512" />
+      <entry key="S2" value="0.7505395487750515" />
+      <entry key="S5" value="0.8916079729969472" />
+      <entry key="S10" value="0.9518028838051122" />
+      <entry key="S30" value="1.4181816056145085" />
+      <entry key="S60" value="3.294131597193044" />
+      <entry key="M2" value="8.372550601098519" />
+      <entry key="M5" value="19.841663621478094" />
+      <entry key="M10" value="29.618617494926415" />
+      <entry key="M15" value="34.57501231303704" />
+      <entry key="M30" value="40.87650539668055" />
+      <entry key="H1" value="44.674071875412615" />
+      <entry key="H2" value="46.765739804850504" />
+      <entry key="H4" value="47.864340035096795" />
+      <entry key="D1" value="48.808087377950535" />
+      <entry key="W1" value="48.9725185265795" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3MeLuD8LH3aT7WIxPZ4PghS6NWf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "/Users/lukaspock/Documents/SideProjects/collab-whiteboard",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/lukaspock/Library/Caches/JetBrains/WebStorm2026.3/ts-go-native-preview/v7.1.0-dev.jetbrains.20261006.2/node_modules/@typescript/typescript-darwin-arm64/lib"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-56aff7b04f6f-JavaScript-WS-263.7307.202" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae4af3ce-1925-46a0-b498-971119b128eb" name="Changes" comment="" />
+      <created>1795706306900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1795706306900</updated>
+      <workItem from="1795706307909" duration="1493000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

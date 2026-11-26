@@ -5,21 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae4af3ce-1925-46a0-b498-971119b128eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/whiteboard/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whiteboard/.oxlintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whiteboard/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whiteboard/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whiteboard/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whiteboard/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whiteboard/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whiteboard/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whiteboard/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whiteboard/src/main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whiteboard/src/welcome/WelcomeScreen.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whiteboard/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whiteboard/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whiteboard/tsconfig.node.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whiteboard/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/CLAUDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/bun.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/controlers/rooms.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/routers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/routers/rooms.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/services/room.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/store/room.store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/src/app/queryClient.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/src/app/router.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/src/pages/CreateScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whiteboard/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whiteboard/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whiteboard/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whiteboard/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whiteboard/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whiteboard/src/Components/WelcomeScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard/src/pages/WelcomeScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whiteboard/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whiteboard/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whiteboard/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whiteboard/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +49,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -46,61 +62,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.6045673376949436E-208" />
-      <entry key="MS500" value="3.041915305229163E-42" />
-      <entry key="S2" value="4.176253102902491E-11" />
-      <entry key="S5" value="7.06445086917186E-5" />
-      <entry key="S10" value="0.008932522299737131" />
-      <entry key="S30" value="0.45844157340951214" />
-      <entry key="S60" value="2.3555129456234605" />
-      <entry key="M2" value="7.451939923745387" />
-      <entry key="M5" value="18.910478596037844" />
-      <entry key="M10" value="28.66682779959111" />
-      <entry key="M15" value="33.611565417864924" />
-      <entry key="M30" value="39.89750722918275" />
-      <entry key="H1" value="43.685377338485786" />
-      <entry key="H2" value="45.771611906075464" />
-      <entry key="H4" value="46.867333413007344" />
-      <entry key="D1" value="47.80859445766662" />
-      <entry key="W1" value="47.972591169906686" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="3.5507007607710895E-82" />
+      <entry key="S2" value="4.340899937307549E-21" />
+      <entry key="S5" value="7.245371891546356E-9" />
+      <entry key="S10" value="1.0427500081124964E-4" />
+      <entry key="S30" value="0.18374045094228322" />
+      <entry key="S60" value="2.137015539160306" />
+      <entry key="M2" value="9.28256678389702" />
+      <entry key="M5" value="29.488434097341447" />
+      <entry key="M10" value="54.69977044748708" />
+      <entry key="M15" value="74.44512543009105" />
+      <entry key="M30" value="115.08181745503384" />
+      <entry key="H1" value="154.98273655706578" />
+      <entry key="H2" value="184.81094831476545" />
+      <entry key="H4" value="203.36796663311728" />
+      <entry key="D1" value="221.15643792770118" />
+      <entry key="W1" value="224.44473149894915" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
       <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0" />
-      <entry key="M10" value="1.0" />
-      <entry key="M15" value="1.0" />
-      <entry key="M30" value="1.0" />
-      <entry key="H1" value="1.0" />
-      <entry key="H2" value="1.0" />
-      <entry key="H4" value="1.0" />
-      <entry key="D1" value="1.0" />
-      <entry key="W1" value="1.0" />
+      <entry key="S5" value="1.0000000000038776" />
+      <entry key="S10" value="1.0000027156653826" />
+      <entry key="S30" value="1.0270477700881022" />
+      <entry key="S60" value="1.2863163276037213" />
+      <entry key="M2" value="2.0385014142649487" />
+      <entry key="M5" value="4.203826101459482" />
+      <entry key="M10" value="6.926911387785202" />
+      <entry key="M15" value="8.809537250599313" />
+      <entry key="M30" value="12.092588005940387" />
+      <entry key="H1" value="14.830539823976261" />
+      <entry key="H2" value="16.683324833446388" />
+      <entry key="H4" value="17.775087354759886" />
+      <entry key="D1" value="18.785755530570007" />
+      <entry key="W1" value="18.969134563914167" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.003217152411201457" />
-      <entry key="MS500" value="0.3173177215049512" />
-      <entry key="S2" value="0.7505395487750515" />
-      <entry key="S5" value="0.8916079729969472" />
-      <entry key="S10" value="0.9518028838051122" />
-      <entry key="S30" value="1.4181816056145085" />
-      <entry key="S60" value="3.294131597193044" />
-      <entry key="M2" value="8.372550601098519" />
-      <entry key="M5" value="19.841663621478094" />
-      <entry key="M10" value="29.618617494926415" />
-      <entry key="M15" value="34.57501231303704" />
-      <entry key="M30" value="40.87650539668055" />
-      <entry key="H1" value="44.674071875412615" />
-      <entry key="H2" value="46.765739804850504" />
-      <entry key="H4" value="47.864340035096795" />
-      <entry key="D1" value="48.808087377950535" />
-      <entry key="W1" value="48.9725185265795" />
+      <entry key="MS100" value="0.005640348420009751" />
+      <entry key="MS500" value="0.3550268396358568" />
+      <entry key="S2" value="0.7719075639524613" />
+      <entry key="S5" value="0.9016253667184522" />
+      <entry key="S10" value="0.9496403867571924" />
+      <entry key="S30" value="1.1879367081315788" />
+      <entry key="S60" value="3.3805790586851256" />
+      <entry key="M2" value="11.238323104596338" />
+      <entry key="M5" value="33.58062002665846" />
+      <entry key="M10" value="61.522515143785604" />
+      <entry key="M15" value="83.16210133100715" />
+      <entry key="M30" value="127.10606270892862" />
+      <entry key="H1" value="169.76880396146836" />
+      <entry key="H2" value="201.46827130834058" />
+      <entry key="H4" value="221.12889360106396" />
+      <entry key="D1" value="239.93964925514484" />
+      <entry key="W1" value="243.41349775728725" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -116,6 +132,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.index.ts.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -133,6 +150,13 @@
     "ts.external.directory.path": "/Users/lukaspock/Library/Caches/JetBrains/WebStorm2026.3/ts-go-native-preview/v7.1.0-dev.jetbrains.20261006.2/node_modules/@typescript/typescript-darwin-arm64/lib"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/src/services" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/whiteboard/src/pages" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -147,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1795706306900</updated>
-      <workItem from="1795706307909" duration="1493000" />
+      <workItem from="1795706307909" duration="5406000" />
     </task>
     <servers />
   </component>

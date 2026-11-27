@@ -5,35 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae4af3ce-1925-46a0-b498-971119b128eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/CLAUDE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/bun.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/controlers/rooms.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/routers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/routers/rooms.routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/services/room.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/store/room.store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whiteboard/src/app/queryClient.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whiteboard/src/app/router.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whiteboard/src/pages/CreateScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/src/api/helper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/src/api/rooms.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteboard/src/screens/RoomScreen.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whiteboard/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whiteboard/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whiteboard/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whiteboard/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whiteboard/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whiteboard/src/Components/WelcomeScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard/src/pages/WelcomeScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whiteboard/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whiteboard/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard/src/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whiteboard/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whiteboard/src/app/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard/src/app/router.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whiteboard/src/pages/CreateScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard/src/screens/CreateScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whiteboard/src/pages/WelcomeScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard/src/screens/WelcomeScreen.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/whiteboard/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -62,61 +40,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.5507007607710895E-82" />
-      <entry key="S2" value="4.340899937307549E-21" />
-      <entry key="S5" value="7.245371891546356E-9" />
-      <entry key="S10" value="1.0427500081124964E-4" />
-      <entry key="S30" value="0.18374045094228322" />
-      <entry key="S60" value="2.137015539160306" />
-      <entry key="M2" value="9.28256678389702" />
-      <entry key="M5" value="29.488434097341447" />
-      <entry key="M10" value="54.69977044748708" />
-      <entry key="M15" value="74.44512543009105" />
-      <entry key="M30" value="115.08181745503384" />
-      <entry key="H1" value="154.98273655706578" />
-      <entry key="H2" value="184.81094831476545" />
-      <entry key="H4" value="203.36796663311728" />
-      <entry key="D1" value="221.15643792770118" />
-      <entry key="W1" value="224.44473149894915" />
+      <entry key="MS100" value="1.000169080745619" />
+      <entry key="MS500" value="1.1760769352649725" />
+      <entry key="S2" value="1.7696350454682106" />
+      <entry key="S5" value="2.7972296406035846" />
+      <entry key="S10" value="4.4567754083688635" />
+      <entry key="S30" value="8.385361569304468" />
+      <entry key="S60" value="10.617053570702515" />
+      <entry key="M2" value="12.742940873999933" />
+      <entry key="M5" value="21.317209842312163" />
+      <entry key="M10" value="39.73198536623756" />
+      <entry key="M15" value="58.850331210607806" />
+      <entry key="M30" value="108.96294834108546" />
+      <entry key="H1" value="170.46031756511152" />
+      <entry key="H2" value="223.5782514920131" />
+      <entry key="H4" value="259.4941502232518" />
+      <entry key="D1" value="295.8899584361923" />
+      <entry key="W1" value="302.8230401201914" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000000038776" />
-      <entry key="S10" value="1.0000027156653826" />
-      <entry key="S30" value="1.0270477700881022" />
-      <entry key="S60" value="1.2863163276037213" />
-      <entry key="M2" value="2.0385014142649487" />
-      <entry key="M5" value="4.203826101459482" />
-      <entry key="M10" value="6.926911387785202" />
-      <entry key="M15" value="8.809537250599313" />
-      <entry key="M30" value="12.092588005940387" />
-      <entry key="H1" value="14.830539823976261" />
-      <entry key="H2" value="16.683324833446388" />
-      <entry key="H4" value="17.775087354759886" />
-      <entry key="D1" value="18.785755530570007" />
-      <entry key="W1" value="18.969134563914167" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="4.051914637082469E-82" />
+      <entry key="S5" value="2.773777753576005E-33" />
+      <entry key="S10" value="5.3038937172383695E-17" />
+      <entry key="S30" value="5.2388579046900825E-6" />
+      <entry key="S60" value="0.004050349928505754" />
+      <entry key="M2" value="0.1245366190103115" />
+      <entry key="M5" value="1.0809399589256936" />
+      <entry key="M10" value="2.8282652269827953" />
+      <entry key="M15" value="4.615886823681391" />
+      <entry key="M30" value="9.128629343890568" />
+      <entry key="H1" value="14.201135057881096" />
+      <entry key="H2" value="18.259394724503405" />
+      <entry key="H4" value="20.87480219430601" />
+      <entry key="D1" value="23.43907033351479" />
+      <entry key="W1" value="23.91881818026305" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.005640348420009751" />
-      <entry key="MS500" value="0.3550268396358568" />
-      <entry key="S2" value="0.7719075639524613" />
-      <entry key="S5" value="0.9016253667184522" />
-      <entry key="S10" value="0.9496403867571924" />
-      <entry key="S30" value="1.1879367081315788" />
-      <entry key="S60" value="3.3805790586851256" />
-      <entry key="M2" value="11.238323104596338" />
-      <entry key="M5" value="33.58062002665846" />
-      <entry key="M10" value="61.522515143785604" />
-      <entry key="M15" value="83.16210133100715" />
-      <entry key="M30" value="127.10606270892862" />
-      <entry key="H1" value="169.76880396146836" />
-      <entry key="H2" value="201.46827130834058" />
-      <entry key="H4" value="221.12889360106396" />
-      <entry key="D1" value="239.93964925514484" />
-      <entry key="W1" value="243.41349775728725" />
+      <entry key="MS100" value="0.9331885775508845" />
+      <entry key="MS500" value="1.1593799700853031" />
+      <entry key="S2" value="1.7228089382806882" />
+      <entry key="S5" value="2.6514177128461953" />
+      <entry key="S10" value="4.25932551143675" />
+      <entry key="S30" value="8.222480790223445" />
+      <entry key="S60" value="10.51474352890103" />
+      <entry key="M2" value="12.80361077009571" />
+      <entry key="M5" value="22.35619144988306" />
+      <entry key="M10" value="42.51732338404021" />
+      <entry key="M15" value="63.41941861677975" />
+      <entry key="M30" value="118.04242010993953" />
+      <entry key="H1" value="184.62083613759194" />
+      <entry key="H2" value="241.81045434133108" />
+      <entry key="H4" value="280.3530433034847" />
+      <entry key="D1" value="319.32598835225383" />
+      <entry key="W1" value="326.741413399066" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -171,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1795706306900</updated>
-      <workItem from="1795706307909" duration="5406000" />
+      <workItem from="1795706307909" duration="8366000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,7 @@
 
 import { useState } from "react"
-import { useNavigate } from "react-router"
+import { useNavigate, useParams} from "react-router"
+import { useQuery } from "@tanstack/react-query"
 
 function WelcomeScreen() {
 
@@ -24,3 +25,8 @@ function WelcomeScreen() {
 }
 
 export default WelcomeScreen
+
+
+function checkRoomId(roomId: string) {
+
+}

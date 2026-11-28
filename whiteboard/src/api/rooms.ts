@@ -1,17 +1,12 @@
-import {request} from "./helper.ts";
-import type {Room} from "@shared/types.ts";
-
+import { request } from "./helper.ts";
+import type { Room, RoomId } from "@shared/types.ts";
 
 function getRoom(roomId: string) {
-    return request<Room>(`/api/rooms/${roomId}`)
+    return request<Room>(`/api/rooms/${roomId}`);
 }
 
-function createRoom(){
-    return request<Room>("/api/rooms", {method: "POST"})
+function createRoom() {
+    return request<RoomId>("/api/rooms", { method: "POST" });
 }
 
-
-export {
-    getRoom,
-    createRoom
-}
+export { getRoom, createRoom };
